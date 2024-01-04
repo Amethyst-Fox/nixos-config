@@ -12,9 +12,15 @@
 
   outputs = { self, nixpkgs }: {
 
-    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
+    nixosConfigurations = {
+      Glados = nixpkgs.lib.nixosSystem {
+        specialArgs = { inherit inputs outputs; };
+        modules = [
+          ./configuration.nix
+        ];
+        networking.hostName = "glados";
+      };
 
-    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
-
+    };
   };
 }
