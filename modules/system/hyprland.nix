@@ -1,10 +1,6 @@
 { config, pkgs, ...}:
 
 {
-  imports = [
-    ./pipewire.nix
-    ./dbus.nix
-  ];
 
   programs.hyprland = {
     enable = true;
