@@ -12,6 +12,7 @@
       Glados = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
+          ./glados.nix
         ];
       };
 
