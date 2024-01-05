@@ -42,6 +42,7 @@
     neovim
     lf
     brave
+    git
   ];
 
 
