@@ -6,6 +6,7 @@
     ./system/pipewire.nix
     ./system/network.nix
     ./system/hyprland.nix
+    ./system/gaming.nix
   ];
 
   # Ensure Nix flakes are used
@@ -35,5 +36,7 @@
       extraGroups = [ "networkmanager" "wheel" ];
     };
   };
+
+
   
 }
