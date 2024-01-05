@@ -21,5 +21,16 @@
     device = "/dev/nvme0n1";
     useOSProber = true;
   };
+
+  # Users
+  users.users = {
+    vivians = {
+      initialPassword = "passwordFUCK";
+      isNormalUser = true;
+      openssh.authorizedKeys.keys = [
+      ];
+      extraGroups = [ "networkmanager" "wheel" ];
+    };
+  };
   
 }
