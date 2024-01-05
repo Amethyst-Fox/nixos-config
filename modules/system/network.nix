@@ -1,7 +1,7 @@
 { config, pkgs, ...}:
 
 {
-  networkmanager.enable = true;
+  networking.networkmanager.enable = true;
   networking.nameservers = [ "8.8.8.8" ];
 
   # Allow ALVR ports in firewall
