@@ -1,4 +1,4 @@
-{ inputs, outputs, lib, pkgs, ... }: 
+{ config, pkgs, ... }: 
 
 {
   # Enable sound with pipewire.
@@ -10,5 +10,6 @@
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
+    jack.enable = true;
   };
 }
