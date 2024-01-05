@@ -1,9 +1,6 @@
 {
   description = "Amethyst's NixOS configuration";
 
-  imports = [
-    ./hardware-configuration.nix
-  ];
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
