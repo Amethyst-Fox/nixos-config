@@ -4,12 +4,12 @@
   programs.steam.enable = true;
   hardware.steam-hardware.enable = true;
 
-  enviroment.systemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     vesktop
     lutris
     wine
     xivlauncher
     yuzu-mainline
     prismlauncher
-  ]
+  ];
 }
