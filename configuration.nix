@@ -16,6 +16,9 @@
     '';
   };
 
+  # Allow unfree packages :(
+  allowUnfree = true;
+
   boot.loader.grub = {
     enable = true;
     device = "/dev/nvme0n1";
