@@ -37,6 +37,13 @@
     };
   };
 
+  environment.systemPackages = with pkgs [
+    vscode
+    neovim
+    lf
+    brave
+  ]
+
 
   
 }
