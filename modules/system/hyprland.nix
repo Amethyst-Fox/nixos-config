@@ -16,4 +16,12 @@
     };
     displayManager.defaultSession = "hyprland";
   };
+
+  environment.systemPackages = with pkgs; [
+    waybar
+    mako
+    swww
+    kitty
+    rofi-wayland
+  ];
 }
