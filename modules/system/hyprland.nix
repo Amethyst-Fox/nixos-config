@@ -13,7 +13,7 @@
     displayManager.gdm = {
       enable = true;
       wayland = true;
-      defaultSession = "hyprland";
     };
-  }
+    displayManager.defaultSession = "hyprland";
+  };
 }
