@@ -5,7 +5,7 @@
     ./modules/system/dbus.nix
     ./modules/system/pipewire.nix
     ./modules/system/network.nix
-    ./modules/system/hyprland.nix
+    ./modules/system/kde.nix
     ./modules/system/gaming.nix
   ];
 
