@@ -2,11 +2,11 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./system/dbus.nix
-    ./system/pipewire.nix
-    ./system/network.nix
-    ./system/hyprland.nix
-    ./system/gaming.nix
+    ./modules/system/dbus.nix
+    ./modules/system/pipewire.nix
+    ./modules/system/network.nix
+    ./modules/system/hyprland.nix
+    ./modules/system/gaming.nix
   ];
 
   # Ensure Nix flakes are used
