@@ -7,5 +7,13 @@
     ./system/network.nix
     ./system/hyprland.nix
   ];
+
+  # Ensure Nix flakes are used
+  nix = {
+    package = pkgs.nixFlakes;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
+  };
   
 }
