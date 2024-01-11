@@ -19,7 +19,7 @@
       CaveJohnson = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
-          ./cavejohnson/cavejohson.nix
+          ./cavejohnson/cavejohnson.nix
           ./cavejohnson/hardware-configuration.nix
         ];
       };
