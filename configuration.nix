@@ -5,7 +5,6 @@
     ./modules/system/pipewire.nix
     ./modules/system/network.nix
     ./modules/system/kde.nix
-    ./modules/system/gaming.nix
   ];
 
   # Ensure Nix flakes are used
