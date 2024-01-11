@@ -17,6 +17,13 @@
     '';
   };
 
+  # Enable ZRAM
+  zramSwap = {
+    enable = true;
+    algorithm = "zstd";
+    memoryMax = 16000000000;
+  };
+
   # Allow unfree packages :(
   nixpkgs.config.allowUnfree = true;
 
