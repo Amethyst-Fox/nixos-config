@@ -15,6 +15,12 @@
           ./glados.nix
         ];
       };
+      CaveJohnson = nixpkgs.lib.nixosSystem {
+        modules = [
+          ./configuration.nix
+          ./cavejohnson.nix
+        ];
+      };
 
     };
   };
