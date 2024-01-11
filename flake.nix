@@ -12,13 +12,15 @@
       Glados = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
-          ./glados.nix
+          ./glados/glados.nix
+          ./glados/hardware-configuration.nix
         ];
       };
       CaveJohnson = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
-          ./cavejohnson.nix
+          ./cavejohnson/cavejohson.nix
+          ./cavejohnson/hardware-configuration.nix
         ];
       };
 

@@ -1,7 +1,6 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./hardware-configuration.nix
     ./modules/system/dbus.nix
     ./modules/system/pipewire.nix
     ./modules/system/network.nix
