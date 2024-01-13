@@ -48,6 +48,7 @@
     lf
     brave
     git
+    obsidian
   ];
 
 
