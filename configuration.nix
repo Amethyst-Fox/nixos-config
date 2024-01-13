@@ -48,13 +48,7 @@
     lf
     brave
     git
-    obsidian
   ];
-
-  nixpkgs.config.permittedInsecurePackages = [
-    "electron-25.9.0"
-  ];
-
 
 
   
