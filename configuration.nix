@@ -15,6 +15,9 @@
     '';
   };
 
+  # Set time zone
+  time.timeZone = "America/Los_Angeles";
+
   # Enable ZRAM
   zramSwap = {
     enable = true;
