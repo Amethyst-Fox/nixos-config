@@ -13,6 +13,7 @@
         modules = [
           ./configuration.nix
           ./glados/glados.nix
+          ./modules/system/gaming.nix
           ./glados/hardware-configuration.nix
         ];
       };
