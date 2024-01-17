@@ -11,5 +11,6 @@
     xivlauncher
     yuzu-mainline
     prismlauncher
+    spotify
   ];
 }
