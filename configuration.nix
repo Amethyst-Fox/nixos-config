@@ -29,11 +29,6 @@
   # Allow unfree packages :(
   nixpkgs.config.allowUnfree = true;
 
-  boot.loader.grub = {
-    enable = true;
-    device = "/dev/nvme0n1";
-    useOSProber = true;
-  };
 
   # Users
   users.users = {
