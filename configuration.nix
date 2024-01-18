@@ -47,6 +47,7 @@
     lf
     brave
     git
+    krita
   ];
 
 
