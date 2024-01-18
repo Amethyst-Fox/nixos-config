@@ -48,6 +48,7 @@
     brave
     git
     krita
+    mpv
   ];
 
 
