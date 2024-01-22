@@ -50,6 +50,7 @@
     krita
     mpv
     hyfetch
+    vimPlugins.nvchad
   ];
 
 
