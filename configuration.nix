@@ -29,6 +29,8 @@
   # Allow unfree packages :(
   nixpkgs.config.allowUnfree = true;
 
+  # Enable bluetooth
+  hardware.bluetooth.enable = true;
 
   # Users
   users.users = {
