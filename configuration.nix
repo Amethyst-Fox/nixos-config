@@ -31,6 +31,7 @@
 
   # Enable bluetooth
   hardware.bluetooth.enable = true;
+  services.blueman.enable = true;
 
   # Users
   users.users = {
@@ -53,6 +54,7 @@
     mpv
     hyfetch
     vimPlugins.nvchad
+    pavucontrol
   ];
 
 
