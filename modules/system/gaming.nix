@@ -12,5 +12,6 @@
     yuzu-mainline
     prismlauncher
     spotify
+    protontricks
   ];
 }
