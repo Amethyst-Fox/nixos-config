@@ -55,6 +55,7 @@
     hyfetch
     vimPlugins.nvchad
     pavucontrol
+    keymapp
   ];
 
 
