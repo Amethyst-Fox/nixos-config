@@ -6,6 +6,7 @@
     ./modules/system/network.nix
     ./modules/system/kde.nix
     ./modules/system/virtualisation.nix
+    ./modules/system/udev.nix
   ];
 
   # Ensure Nix flakes are used
