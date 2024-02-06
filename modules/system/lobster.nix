@@ -1,7 +1,7 @@
-{ config, pkgs, lobster, ... }: 
+{ config, pkgs, inputs, ... }: 
 
 {
   environment.systemPackages = [
-    inputs.lobster.packages.x86_64.lobster
+    inputs.lobster.packages.x86_64-linux.lobster
   ];
 }
