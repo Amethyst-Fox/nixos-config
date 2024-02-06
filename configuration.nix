@@ -1,4 +1,5 @@
 { config, pkgs, ... }:
+
 {
   imports = [
     ./modules/system/dbus.nix
@@ -7,6 +8,7 @@
     ./modules/system/kde.nix
     ./modules/system/virtualisation.nix
     ./modules/system/udev.nix
+    ./modules/system/lobster.nix
   ];
 
   # Ensure Nix flakes are used
