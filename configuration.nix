@@ -59,6 +59,7 @@
     vimPlugins.nvchad
     pavucontrol
     keymapp
+    appimage-run
   ];
 
 
