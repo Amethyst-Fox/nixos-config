@@ -3,10 +3,5 @@
 {
   networking.hostName = "CaveJohnson";
 
-  boot.loader.grub = {
-    enable = true;
-    device = "nodev";
-    efiSupport = true;
-    useOSProber = true;
-  };
+  boot.loader.systemd-boot.enable = true;
 }
