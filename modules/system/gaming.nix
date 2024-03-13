@@ -9,7 +9,6 @@
     lutris
     wine
     xivlauncher
-    yuzu-mainline
     prismlauncher
     spotify
     protontricks
