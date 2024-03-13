@@ -20,7 +20,7 @@
   };
 
   # Set time zone
-  time.timeZone = "America/Los_Angeles";
+  time.timeZone = "America/New_York";
 
   # Enable ZRAM
   zramSwap = {
