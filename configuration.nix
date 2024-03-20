@@ -6,7 +6,7 @@
     ./modules/system/pipewire.nix
     ./modules/system/network.nix
     ./modules/system/kde.nix
-    ./modules/system/virtualisation.nix
+    # ./modules/system/virtualisation.nix
     ./modules/system/udev.nix
     ./modules/system/lobster.nix
   ];
