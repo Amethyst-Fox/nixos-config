@@ -14,29 +14,13 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "tmpfs";
-      fsType = "tmpfs";
+    { device = "/dev/disk/by-uuid/212d5734-1268-44e3-a27c-5eb3a0904e01";
+      fsType = "ext4";
     };
 
-  fileSystems."/iso" =
-    { device = "tmpfs";
-      fsType = "tmpfs";
-    };
-
-  fileSystems."/nix/.ro-store" =
-    { device = "/iso/nix-store.squashfs";
-      fsType = "squashfs";
-      options = [ "loop" ];
-    };
-
-  fileSystems."/nix/.rw-store" =
-    { device = "tmpfs";
-      fsType = "tmpfs";
-    };
-
-  fileSystems."/nix/store" =
-    { device = "overlay";
-      fsType = "overlay";
+  fileSystems."/boot" =
+    { device = "/dev/disk/by-uuid/076A-82D1";
+      fsType = "vfat";
     };
 
   swapDevices = [ ];
@@ -50,6 +34,5 @@
   # networking.interfaces.wlp0s20f3.useDHCP = lib.mkDefault true;
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
-  powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 }
