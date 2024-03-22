@@ -60,6 +60,7 @@
     pavucontrol
     keymapp
     appimage-run
+    vesktop
   ];
 
 
