@@ -61,6 +61,7 @@
     keymapp
     appimage-run
     vesktop
+    beeper
   ];
 
 
