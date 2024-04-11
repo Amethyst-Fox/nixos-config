@@ -62,6 +62,7 @@
     appimage-run
     vesktop
     beeper
+    corectrl
   ];
 
 
