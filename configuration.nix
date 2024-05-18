@@ -55,7 +55,7 @@
     git
     krita
     mpv
-    hyfetch
+    fastfetch
     vimPlugins.nvchad
     pavucontrol
     keymapp
