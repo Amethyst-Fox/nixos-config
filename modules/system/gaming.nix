@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   programs.steam.enable = true;
@@ -11,7 +11,13 @@
     prismlauncher
     spotify
     protontricks
+    inputs.nix-citizen.packages.${system}.star-citizen
   ];
+
+  nix.settings = {
+    substituters = ["https://nix-gaming.cachix.org"];
+    trusted-public-keys = ["nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="];
+  };
 
   boot.kernel.sysctl = {
     "vm.max_map_count" = 16777216;
