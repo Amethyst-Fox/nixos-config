@@ -12,6 +12,7 @@
     spotify
     protontricks
     inputs.nix-citizen.packages.${system}.star-citizen
+    alvr
   ];
 
   nix.settings = {
