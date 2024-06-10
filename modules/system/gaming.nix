@@ -13,6 +13,7 @@
     protontricks
     inputs.nix-citizen.packages.${system}.star-citizen
     alvr
+    wlx-overlay-s
   ];
 
   nix.settings = {
